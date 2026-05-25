@@ -1,5 +1,6 @@
 site_name: BasiliskScan - Manual do Usuário
 site_description: Manual do usuário do BasiliskScan CLI.
+site_url: https://puuertA.github.io/manual-usuario-basiliskscan/
 theme:
   name: material
   language: pt-BR
