@@ -1,7 +1,2 @@
 # Ignorar fontes da documentação
 /docs/
-
-# Incluir o site gerado no repositório
-/site/*
-!/site/
-!/site/**
