@@ -1,0 +1,44 @@
+site_name: BasiliskScan - Manual do Usuário
+site_description: Manual do usuário do BasiliskScan CLI.
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  font:
+    text: Montserrat
+    code: Montserrat
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Alternar para modo escuro
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Alternar para modo claro
+nav:
+  - Início: index.md
+  - Instalação: instalacao.md
+  - Primeiros passos: primeiros-passos.md
+  - Comandos: comandos.md
+  - Configuração: configuracao.md
+  - Fontes de vulnerabilidades: fontes-vulnerabilidades.md
+  - Banco offline: banco-offline.md
+  - Relatórios: relatorios.md
+  - Exemplos de uso: exemplos-de-uso.md
+  - FAQ: faq.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/smooth-scroll.js
