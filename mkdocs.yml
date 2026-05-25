@@ -36,28 +36,26 @@ nav:
 plugins:
   - search
   - i18n:
-      default_language: pt
       docs_structure: folder
       languages:
         - locale: pt
           name: Português (Brasil)
-          default: true
           build: true
+          default: true
         - locale: en
           name: English
           build: true
-      nav_translations:
-        en:
-          BasiliskScan: BasiliskScan
-          Instalação: Installation
-          Primeiros passos: Getting started
-          Comandos: Commands
-          Configuração: Configuration
-          Fontes de vulnerabilidades: Vulnerability sources
-          Banco offline: Offline database
-          Relatórios HTML: HTML reports
-          Exemplos de uso: Usage examples
-          FAQ: FAQ
+          nav_translations:
+            BasiliskScan: BasiliskScan
+            Instalação: Installation
+            Primeiros passos: Getting started
+            Comandos: Commands
+            Configuração: Configuration
+            Fontes de vulnerabilidades: Vulnerability sources
+            Banco offline: Offline database
+            Relatórios HTML: HTML reports
+            Exemplos de uso: Usage examples
+            FAQ: FAQ
 markdown_extensions:
   - toc:
       permalink: true
